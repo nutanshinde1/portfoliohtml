@@ -12,7 +12,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();  
         
         const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
+        const targetElement =  document.querySelector(targetId);
         
         if (targetElement) { 
             window.scrollTo({
